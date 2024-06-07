@@ -1,3 +1,6 @@
+-- To ignore the warning, 'duplicate-index' from lines 4 and 10.
+---@diagnostic disable: duplicate-index
+
 local input = {
   --- Reads the user's input and returns the input.
   ReadUserInput = function()
